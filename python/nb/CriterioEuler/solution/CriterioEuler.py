@@ -65,12 +65,14 @@ def mult_mod(a, b, m):
     return ((a % m) * (b % m)) % m
 
 
-# teste se a ^(e-1)/2 mod e == 1
-def euler_criterion(a, e, p):
+# teste se a ^(p-1)/2 mod e == 1
+def euler_criterion(a, p):
     if a == 0:
         return "YES"
     c = 1
+    e = (p-1)//2
     a %= p
+    #t = pow(a, e, p)
     while e > 0:
         if (e & 1) == 1:
             c = mult_mod(c, a, p)
@@ -81,7 +83,7 @@ def euler_criterion(a, e, p):
 
 # Complete the solve function below.
 def solve(a, m):
-    return euler_criterion(a, (m - 1) // 2, m)
+    return euler_criterion(a, m)
 
 
 def test():
@@ -92,10 +94,9 @@ def test():
 def test_2():
     n = int(input())
     while n > 0:
-        a, m = set(map(int, input().split()))
-        print(solve(a, m))
+        a, m = tuple(map(int, input().split()))
+        print(solve(a, m), file=open("..//raw//output.txt", "a"))
         n -= 1
-
 
 test_2()
 
