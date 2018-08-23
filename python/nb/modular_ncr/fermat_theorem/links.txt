@@ -1,0 +1,2 @@
+https://www.quora.com/How-do-I-find-the-value-of-nCr-1000000007-for-the-large-number-n-n-10-6-in-C
+https://en.wikipedia.org/wiki/Modular_multiplicative_inverse#Using_Euler's_theorem
