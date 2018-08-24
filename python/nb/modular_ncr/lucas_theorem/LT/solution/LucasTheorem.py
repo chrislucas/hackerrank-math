@@ -75,6 +75,12 @@ def test_1():
 
 
 def test_2():
+    print(lucas_theorem(9, 2, 7130))
+    print(lucas_theorem(4, 2, 5781))
+    print(lucas_theorem(9, 3, 6))
+
+    print("")
+
     print(lucas_theorem(1000, 300, 13))
     print(lucas_theorem(1000, 900, 13))
     print(lucas_theorem(5, 2, 1001))
