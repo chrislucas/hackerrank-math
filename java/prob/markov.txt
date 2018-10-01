@@ -1,0 +1,24 @@
+https://www.geeksforgeeks.org/a-matrix-probability-question/
+
+https://en.wikipedia.org/wiki/Stochastic_matrix
+
+http://mathworld.wolfram.com/StochasticMatrix.html
+
+https://math.stackexchange.com/questions/1558442/applied-matrix-problem-with-probabilities
+
+https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/Chapter11.pdf
+
+https://pt.wikipedia.org/wiki/Cadeias_de_Markov
+
+
+Markov Decision Process
+https://www.geeksforgeeks.org/markov-decision-process/
+https://www.geeksforgeeks.org/markov-matrix/
+
+
+Matrix Chain Multiplication 
+https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/
+
+
+Markov Chains
+http://setosa.io/ev/markov-chains/
